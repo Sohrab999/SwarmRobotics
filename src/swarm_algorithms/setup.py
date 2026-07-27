@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "leader_follower=swarm_algorithms.leader_follower:main"
+            "leader_follower=swarm_algorithms.leader_follower:main",
+            "formation_control=swarm_algorithms.formation_control:main"
         ],
     },
 )
