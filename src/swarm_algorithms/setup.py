@@ -1,5 +1,6 @@
 from setuptools import find_packages, setup
 
+
 package_name = 'swarm_algorithms'
 
 setup(
@@ -26,7 +27,8 @@ setup(
         'console_scripts': [
             "leader_follower=swarm_algorithms.leader_follower:main",
             "formation_control=swarm_algorithms.formation_control:main",
-            "consensus=swarm_algorithms.consensus:main"
+            "consensus=swarm_algorithms.consensus:main",
+            "decentralized_rendezvous=swarm_algorithms.decentralized_rendezvous:main"
         ],
     },
 )
