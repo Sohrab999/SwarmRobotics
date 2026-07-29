@@ -28,7 +28,8 @@ setup(
             "leader_follower=swarm_algorithms.leader_follower:main",
             "formation_control=swarm_algorithms.formation_control:main",
             "consensus=swarm_algorithms.consensus:main",
-            "decentralized_rendezvous=swarm_algorithms.decentralized_rendezvous:main"
+            "decentralized_rendezvous=swarm_algorithms.decentralized_rendezvous:main",
+            "radius_spacial=swarm_algorithms.radius_spacial:main"
         ],
     },
 )
